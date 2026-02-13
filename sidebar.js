@@ -58,7 +58,6 @@ document.addEventListener('DOMContentLoaded', function () {
             observer.observe(el);
         });
     } else {
-        // Fallback: just show everything
         fadeElements.forEach(function (el) {
             el.classList.add('visible');
         });
